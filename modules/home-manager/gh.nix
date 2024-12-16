@@ -11,10 +11,6 @@
   };
 
   config = lib.mkIf config.home-gh-module.enable {
-    programs.gh = {
-      enable = true;
-      gitCredentialHelper.enable = true;
-      gitCredentialHelper.hosts = [ "https://github.com" ];
-    };
+    programs.gh.enable = true;
   };
 }
