@@ -13,11 +13,9 @@
   config = lib.mkIf config.packages-module.enable {
     environment.systemPackages = with pkgs; [
       kitty
-      neovim
       vim
-      git
-      gh
       # hyprpanel
+      hyprcursor
       hyprpaper
       hyprlock
       wl-clipboard
