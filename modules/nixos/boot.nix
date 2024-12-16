@@ -15,6 +15,7 @@
       loader = {
         grub = {
           enable = true;
+	  useOSProber = true;
           efiSupport = true;
           configurationLimit = 100;
           device = "nodev";
