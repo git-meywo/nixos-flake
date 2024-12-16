@@ -14,16 +14,16 @@
 
   outputs = { self, nixpkgs, ... }@inputs: {
     nixosConfigurations = {
-      default = nixpkgs.lib.nixosSystem {
+      desktop = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs;};
         modules = [
-          ./hosts/default/configuration.nix
+          ./hosts/desktop/configuration.nix
         ];
       };
-      region = nixpkgs.lib.nixosSystem {
+      laptop = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs;};
         modules = [
-          ./hosts/region/configuration.nix
+          ./hosts/laptop/configuration.nix
         ];
       };
     };

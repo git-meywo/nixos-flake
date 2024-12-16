@@ -5,6 +5,8 @@
   imports =
     [
       ../../modules/home-manager/dotfiles.nix
+      ../../modules/home-manager/git.nix
+      ../../modules/home-manager/gh.nix
       ../../modules/home-manager/packages.nix
     ];
 

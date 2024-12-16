@@ -12,6 +12,7 @@
 
   config = lib.mkIf config.home-package-module.enable {
     home.packages = with pkgs; [
+      neovim
       fastfetch
       swappy
       slurp
