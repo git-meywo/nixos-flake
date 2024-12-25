@@ -15,9 +15,11 @@
       kitty
       vim
       hyprpanel
+      hyprpicker
       hyprcursor
       hyprpaper
       hyprlock
+      rofi-wayland
       wl-clipboard
     ];
   };
