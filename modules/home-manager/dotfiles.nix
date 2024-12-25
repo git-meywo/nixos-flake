@@ -15,9 +15,7 @@
       ".config/hypr".source  = ./dotfiles/hypr;
       ".config/kitty".source = ./dotfiles/kitty;
       ".config/fastfetch".source = ./dotfiles/fastfetch;
-      ".config/vesktop".source = ./dotfiles/vesktop;
       "dotfile-assets".source = ./dotfiles/dotfile-assets;
-      "hyprpanel".source = ./dotfiles/hyprpanel;
     };
   };
 }
