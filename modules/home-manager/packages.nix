@@ -15,7 +15,6 @@
       neovim
       godot_4
       lazygit
-      superfile
       fastfetch
       vesktop
       firefox
