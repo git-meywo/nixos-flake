@@ -13,7 +13,9 @@
   config = lib.mkIf config.home-package-module.enable {
     home.packages = with pkgs; [
       neovim
+      godot
       lazygit
+      superfile
       fastfetch
       vesktop
       firefox
