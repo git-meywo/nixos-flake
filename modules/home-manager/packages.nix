@@ -13,7 +13,7 @@
   config = lib.mkIf config.home-package-module.enable {
     home.packages = with pkgs; [
       neovim
-      godot
+      godot_4
       lazygit
       superfile
       fastfetch
