@@ -14,7 +14,7 @@
     environment.systemPackages = with pkgs; [
       kitty
       vim
-      # hyprpanel
+      hyprpanel
       hyprcursor
       hyprpaper
       hyprlock

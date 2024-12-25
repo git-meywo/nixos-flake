@@ -14,6 +14,7 @@
     home.packages = with pkgs; [
       neovim
       fastfetch
+      vesktop
       swappy
       slurp
       grim
