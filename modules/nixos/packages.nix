@@ -21,8 +21,6 @@
       hyprlock
       rofi-wayland
       wl-clipboard
-
-      inputs.zen-browser.packages."${system}".specific
     ];
   };
 }
