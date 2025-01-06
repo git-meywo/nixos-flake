@@ -20,11 +20,6 @@
       ../../modules/nixos/users.nix
 
       inputs.home-manager.nixosModules.default
-
-      {
-        nixpkgs.overlays = [ inputs.hyprpanel.overlay ];
-        _module.args = { inherit inputs; };
-      }
     ];
 
   networking-module.hostname = "nixos-pc";
