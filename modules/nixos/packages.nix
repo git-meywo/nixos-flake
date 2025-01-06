@@ -17,6 +17,7 @@
       hyprcursor
       hyprpaper
       hyprlock
+      waybar
       rofi-wayland
       wl-clipboard
       hyprland-qtutils
