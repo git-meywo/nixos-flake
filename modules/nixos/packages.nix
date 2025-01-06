@@ -19,6 +19,7 @@
       hyprlock
       rofi-wayland
       wl-clipboard
+      hyprland-qtutils
     ];
   };
 }
