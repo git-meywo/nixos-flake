@@ -13,7 +13,6 @@
   config = lib.mkIf config.home-package-module.enable {
     home.packages = with pkgs; [
       neovim
-      godot_4
       lazygit
       fastfetch
       vesktop
@@ -21,6 +20,7 @@
       swappy
       slurp
       grim
+      godot_4
     ];
   };
 }
