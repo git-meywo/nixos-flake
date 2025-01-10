@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 
 {
   options = {
@@ -21,6 +21,7 @@
       rofi-wayland
       wl-clipboard
       hyprland-qtutils
+      inputs.zen-browser.packages."${system}".default
     ];
   };
 }
