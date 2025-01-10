@@ -15,7 +15,6 @@
       ".config/hypr".source  = ./dotfiles/hypr;
       ".config/kitty".source = ./dotfiles/kitty;
       ".config/fastfetch".source = ./dotfiles/fastfetch;
-      ".local/share/icons/HyprBibataModernClassicSVG".source = ./dotfiles/hyprcursor/HyprBibataModernClassicSVG;
       "dotfile-assets".source = ./dotfiles/dotfile-assets;
     };
   };
