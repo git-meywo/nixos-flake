@@ -16,7 +16,6 @@
       lazygit
       fastfetch
       vesktop
-      firefox
       swappy
       slurp
       grim
