@@ -18,6 +18,7 @@
       hyprlock
       waybar
       rofi-wayland
+      dunst
       wl-clipboard
       hyprland-qtutils
 
