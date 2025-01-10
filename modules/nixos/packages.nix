@@ -14,7 +14,6 @@
     environment.systemPackages = with pkgs; [
       kitty
       vim
-      hyprcursor
       hyprpaper
       hyprlock
       waybar
