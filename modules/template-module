@@ -1,0 +1,15 @@
+{ config, lib, pkgs, ... }:
+
+{
+  options = {
+    <module-name>.enable = lib.mkOption {
+      type = lib.types.bool;
+      default = true;
+      example = false;
+      description = "<description>";
+    };
+  };
+
+  config = lib.mkIf config.<module-name>.enable {
+  };
+}
