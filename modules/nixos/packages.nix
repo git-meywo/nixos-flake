@@ -21,7 +21,6 @@
       waybar
       rofi-wayland
       dunst
-      libgcc
       curl
       fzf
       ripgrep
